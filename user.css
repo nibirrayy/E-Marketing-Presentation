@@ -1,9 +1,62 @@
-body{
-    border: 25px #5e81ac solid;
-    border-image-slice: 1;
-    background: #d8dee9;
-    background-color: #d8dee9;
+/*
+THIS FILE CONTAINS ALL USER OVER RIGHTS THAT I BEING USED IN THE PRESENTATION
+*/
+
+
+/*********************************************
+ * PROGRESS BAR OVERWRITE
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: #eceff4;
+  border: 25px #2e3440 solid;
+
 }
+
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  color: #eceff4;
+}
+
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls {
+  color: #bf616a; 
+}
+
+/*THIS IS USED TO DRAW A BORDER ACROSS THE DEFINATIONS TO HIGHLIGHT THEM*/
+.defination-highlight{
+    border:1px solid white; 
+    padding: 20px; 
+    border-radius: 25px;
+}
+
+/*THIS IS USED TO MAKE THE TEXT NORD WHITE*/
+.white-text{
+  color: #eceff4;
+}
+
+body{
+    border: 25px #2e3440 solid;
+    border-image-slice: 1;
+}
+
+::selection {
+  color: #fff;
+  background: #bf616a;
+  text-shadow: none; 
+}
+
 
 .table-border {
     border:1px solid black; 
@@ -14,4 +67,9 @@ body{
     border: 3px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to left, #00bcdd, #ff00ff);
+}
+
+/*REST OF THE FONT*/
+.reveal {
+  color: white; 
 }
